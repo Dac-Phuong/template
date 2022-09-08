@@ -5,11 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 } */
-.font-family{
-  font-family: 'Poppins', Regular;
 
-}
-  
 *{
   padding: 0;
   margin: 0;
@@ -360,7 +356,7 @@ a{
 
 .active{
   color:#dd2f31;
-  border-bottom: 4px solid #dd2f31;
+  border-bottom: 2px solid #dd2f31;
 }
 
 .product-list {
@@ -612,6 +608,7 @@ a{
   font-size: 14px;
 
 }
+
 .footer-right,
 .footer-bottun,
 .footer-colum-4 span {
@@ -623,4 +620,7 @@ a{
 .footer-copyright {
   background-color: #000;
   text-align: center;
+}
+.slick-dotted.slick-slider ul{
+  position: relative;
 }
